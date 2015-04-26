@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It allowed you to view the change that caused the bug in the new version and compare that to the working code of the previous version.
+
+This allows for easier correction and comparison.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access allows you to quickly identify changes that are made to the code at each iteration. Even if the change wasn't favourable, the change can be easily reversed by having access to the previous histories of the file.
+
+As well, drastic changes to code that result in the code not working can be easily reversed b having access to the previous version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+By manually choosing to create a commit, you are able to save your program at a logical point in change, whereas for automatically saving, although it is more safer, the saves are less logical and could vary greatly depending on your activity log.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is used for saving files used in programming, where files can be depepdent whereas others like Google Docs are used for saving individual documents and files, where dependency is inexistent or could not be traced.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By using git log, we can view the history of changes to the files in respect to the change, and then using git diff and the IDs of the files we would like to compare the changes in, we can see the differences in code of those files.
+
+How might using version control make you more confident to make changes that could break something?
+
+By being able to revert back to a previous commit, we are more willing to make changes that could break something as we could easily revert back and undo all of our changes to that code if what we changed was unsuccessful.
