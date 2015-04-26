@@ -1,0 +1,7 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different form the working directory as it is the virtual space in which files which are going to be committed are placed. The working directory holds all files of the current directory, while staging area holds a copy of files to be sent to the repo.
+
+The staging area is different from the repository as the files are not yet committed but will be, unless taken out before. 
+
+The value that it adds is in the ability to choose which files you would like to commit to the repository. Instead of having to commit all the files of the working directory, you can choose to commit only certain files.
