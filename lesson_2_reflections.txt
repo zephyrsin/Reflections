@@ -5,3 +5,23 @@ The staging area is different form the working directory as it is the virtual sp
 The staging area is different from the repository as the files are not yet committed but will be, unless taken out before. 
 
 The value that it adds is in the ability to choose which files you would like to commit to the repository. Instead of having to commit all the files of the working directory, you can choose to commit only certain files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By loading on all the logical changes of one commit to the staging area, I can send multiple commits even if I've made a number of my changes to my working directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some situations that would benefit with branches would be when you add experimental features that you would not like to be on the main branch. As well, you can solve a problem with your program in multiple ways by using branches, and only merge back the working solution without requiring the rest.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch by showing you visually what a branch looks like, and how the traceability of each commit is when it is on a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a new commit at the end of the non-current branch that is added on to the end of the current branch. We represent it in our diagram the way we do to symbolize the merging of two branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging allows for faster merges but the con is the code that is merged may be not what you want it to be. Always merging manually has the pro of always being the correct code, however the manual process takes longer.
